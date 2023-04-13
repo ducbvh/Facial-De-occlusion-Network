@@ -23,10 +23,19 @@ Link UnMask: [Link](https://github.com/NVlabs/ffhq-dataset.git)
        *  `input`: input image
        
 ## Results
-Train Based model (W/O Attention Module) with 100 epoch: ![Picture1](https://user-images.githubusercontent.com/45920660/231653665-9d720e4b-edc0-4111-9627-1851c5a64d52.png)
+Train Based model (W/O Attention Module) with 100 epoch:
+   - The generated image fills the lips and nose quite harmoniously. However, the image quality is blurry, not clear.
+![Picture1](https://user-images.githubusercontent.com/45920660/231653665-9d720e4b-edc0-4111-9627-1851c5a64d52.png)
 
 
-Train with Attention Mudule:  ![Picture2](https://user-images.githubusercontent.com/45920660/231653744-c4c967eb-e235-4e1a-be22-dd7018bf8824.png)
+
+Train with Attention Mudule:  
+   - The generated image is clear and detailed, but there is a white part of the mouth that cannot be filled.
+   ![Picture2](https://user-images.githubusercontent.com/45920660/231653744-c4c967eb-e235-4e1a-be22-dd7018bf8824.png)
+
+Fine-Tuning weight of Based Model and train with Attention Module:  
+   -Load Weights of Base model without Attention to Model with Attention and Fine-tune.
+   => Fixed problem with white part of the mouth that cannot be filled
 
 
-Fine-Tuning weight of Based Model and train with Attention Module:  ![Picture3](https://user-images.githubusercontent.com/45920660/231653771-7fbf930f-7727-43ed-a4b5-db83b3fa2ff5.png)
+![Picture3](https://user-images.githubusercontent.com/45920660/231653771-7fbf930f-7727-43ed-a4b5-db83b3fa2ff5.png)
