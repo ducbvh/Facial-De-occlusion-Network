@@ -10,7 +10,7 @@ Link Mask: [Link](https://github.com/cabani/MaskedFace-Net.git)
 Link UnMask: [Link](https://github.com/NVlabs/ffhq-dataset.git)
 
 ## Structure of Reposity
-* `notebook`: contains Jupyter notebook file on how to train and evaluate the models
+* `notebook`: contains Jupyter notebook file to train, evaluate and inference the model
     *  `FaceDeocculusion.ipynb`: Step2step train model Face De-occulusion
 * `training_checkpoints`: path to save checkpoints from model
 * `weights`: model weight trained with no attention, can use to fine-tuning
