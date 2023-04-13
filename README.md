@@ -8,3 +8,15 @@ Try on Colab[![Open In Colab](https://colab.research.google.com/assets/colab-bad
 Link Mask: [Link](https://github.com/cabani/MaskedFace-Net.git)
 
 Link UnMask: [Link](https://github.com/NVlabs/ffhq-dataset.git)
+
+## Structure of Reposity
+* `notebook': contains Jupyter notebook file on how to train and evaluate the models
+    *  `FaceDeocculusion.ipynb`: Step2step train model Face De-occulusion
+* `training_checkpoints`: path to save checkpoints from model
+* `dataset`: contains dataset splitted into train and test.
+*  *  `train`: format data for train YoloV5
+    *  `target`: target image
+    *  `input`: input image
+*  *  `train`: format data for train YoloV5
+     *  `target`: target image
+     *  `input`: input image
