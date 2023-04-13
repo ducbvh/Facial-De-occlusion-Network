@@ -16,8 +16,8 @@ Link UnMask: [Link](https://github.com/NVlabs/ffhq-dataset.git)
 * `weights`: model weight trained with no attention, can use to fine-tuning
 * `dataset`: contains dataset splitted into train and test.
    *  `train`: contain train set
-     * *  `target`: target image
-     * *  `input`: input image
+       *  `target`: target image
+       *  `input`: input image
    *  `test`: contain test set
-     * * `target`: target image
-     * *  `input`: input image
+       * `target`: target image
+       *  `input`: input image
