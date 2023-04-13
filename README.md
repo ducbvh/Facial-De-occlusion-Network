@@ -13,6 +13,7 @@ Link UnMask: [Link](https://github.com/NVlabs/ffhq-dataset.git)
 * `notebook': contains Jupyter notebook file on how to train and evaluate the models
     *  `FaceDeocculusion.ipynb`: Step2step train model Face De-occulusion
 * `training_checkpoints`: path to save checkpoints from model
+* `weights`: model weight trained with no attention, can use to fine-tuning
 * `dataset`: contains dataset splitted into train and test.
    *  `train`: contain train set
      * *  `target`: target image
