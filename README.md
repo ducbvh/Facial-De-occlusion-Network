@@ -30,4 +30,3 @@ Train with Attention Mudule:  ![Picture2](https://user-images.githubusercontent.
 
 
 Fine-Tuning weight of Based Model and train with Attention Module:  ![Picture3](https://user-images.githubusercontent.com/45920660/231653771-7fbf930f-7727-43ed-a4b5-db83b3fa2ff5.png)
-)
