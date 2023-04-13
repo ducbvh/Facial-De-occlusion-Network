@@ -29,14 +29,12 @@ Link UnMask: [Link](https://github.com/NVlabs/ffhq-dataset.git)
 
 
 
-* Train with Attention Mudule:  
+* Train with Attention Mudule with 300 epoch:  
    - The generated image is clear and detailed, but there is a white part of the mouth that cannot be filled.
    ![Picture2](https://user-images.githubusercontent.com/45920660/231653744-c4c967eb-e235-4e1a-be22-dd7018bf8824.png)
 
-* Fine-Tuning weight of Based Model and train with Attention Module:  
-   - Load Weights of Base model without Attention to Model with Attention and Fine-tune.
-   
+* Load Weights of Base model without Attention to Model with Attention and Fine-tune with 150 epoch:  
    => Fixed problem with white part of the mouth that cannot be filled
 
 
-![Picture3](https://user-images.githubusercontent.com/45920660/231653771-7fbf930f-7727-43ed-a4b5-db83b3fa2ff5.png)
+   ![Picture3](https://user-images.githubusercontent.com/45920660/231653771-7fbf930f-7727-43ed-a4b5-db83b3fa2ff5.png)
