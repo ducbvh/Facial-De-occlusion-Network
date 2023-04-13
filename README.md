@@ -35,6 +35,7 @@ Link UnMask: [Link](https://github.com/NVlabs/ffhq-dataset.git)
 
 * Fine-Tuning weight of Based Model and train with Attention Module:  
    - Load Weights of Base model without Attention to Model with Attention and Fine-tune.
+   
    => Fixed problem with white part of the mouth that cannot be filled
 
 
