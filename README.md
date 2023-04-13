@@ -14,9 +14,9 @@ Link UnMask: [Link](https://github.com/NVlabs/ffhq-dataset.git)
     *  `FaceDeocculusion.ipynb`: Step2step train model Face De-occulusion
 * `training_checkpoints`: path to save checkpoints from model
 * `dataset`: contains dataset splitted into train and test.
-   **  `train`: contain train set
+   *  `train`: contain train set
       **  `target`: target image
-      *  `input`: input image
-   **  `test`: contain test set
+      **  `input`: input image
+   *  `test`: contain test set
      ** `target`: target image
      **  `input`: input image
