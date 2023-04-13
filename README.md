@@ -21,3 +21,13 @@ Link UnMask: [Link](https://github.com/NVlabs/ffhq-dataset.git)
    *  `test`: contain test set
        * `target`: target image
        *  `input`: input image
+       
+## Results
+Train Based model (W/O Attention Module) with 100 epoch: ![image](![Picture1](https://user-images.githubusercontent.com/45920660/231653665-9d720e4b-edc0-4111-9627-1851c5a64d52.png))
+
+
+Train with Attention Mudule:  ![image](![Picture2](https://user-images.githubusercontent.com/45920660/231653744-c4c967eb-e235-4e1a-be22-dd7018bf8824.png)
+)
+
+Fine-Tuning weight of Based Model and train with Attention Module:  ![image](![Picture3](https://user-images.githubusercontent.com/45920660/231653771-7fbf930f-7727-43ed-a4b5-db83b3fa2ff5.png)
+)
