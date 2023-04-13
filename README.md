@@ -5,6 +5,6 @@ Try on Colab[![Open In Colab](https://colab.research.google.com/assets/colab-bad
 
 ## Datasets
 
-Link Mask: [Link]([https://github.com/NVlabs/ffhq-dataset.git](https://github.com/cabani/MaskedFace-Net.git))
+Link Mask: [Link](https://github.com/cabani/MaskedFace-Net.git)
 
 Link UnMask: [Link](https://github.com/NVlabs/ffhq-dataset.git)
