@@ -1,5 +1,4 @@
 # Facial-De-occlusion-Network
-This is an implementation of paper [Facial De-occlusion Network for Virtual Telepresence Systems](https://arxiv.org/abs/2210.12622)
 
 Quickstart in Colab [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1OrpR9FAfXnJij0ecQkgE6KGWf7kLt3p3?usp=sharing)
 
