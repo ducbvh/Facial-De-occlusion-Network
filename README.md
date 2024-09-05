@@ -2,6 +2,18 @@
 
 Quickstart in Colab [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1OrpR9FAfXnJij0ecQkgE6KGWf7kLt3p3?usp=sharing)
 
+##Model Architect
+* This approach is an end to end inpainting method that learns to fill in user-specific details.
+* No required  3D face to  face reconstruction.
+* Easy to train, customize, fine-tuning.
+- Model Architecture
+  ![image](https://github.com/user-attachments/assets/0b6488f4-a192-4672-9adf-794040f27ee7)
+- Encoder and Decoder:
+  ![image](https://github.com/user-attachments/assets/66b65b16-8802-4af6-a83f-d5a87a1bba4e)
+- Attention Module:
+  ![image](https://github.com/user-attachments/assets/cc294063-c891-4ed9-a214-f5c454dbf486)
+
+
 ## Datasets
 
 Link Mask: [Link](https://github.com/cabani/MaskedFace-Net.git)
