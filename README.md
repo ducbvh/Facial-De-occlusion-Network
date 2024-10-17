@@ -2,7 +2,7 @@
 
 Quickstart in Colab [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1OrpR9FAfXnJij0ecQkgE6KGWf7kLt3p3?usp=sharing)
 
-##Model Architect
+## Model Architect
 * This approach is an end to end inpainting method that learns to fill in user-specific details.
 * No required  3D face to  face reconstruction.
 * Easy to train, customize, fine-tuning.
